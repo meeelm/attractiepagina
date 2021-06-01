@@ -177,9 +177,26 @@ th{
     text-align: left;
 }
 
+.attracties{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
 
+.attracties div{
+  grid-column: span 2;
+  background-color: #F5FCF8;
+}
 
+.attracties div h2{
+  color: #0B351D;
+  font-family: Oxanium;
+  font-weight: 600;
+}
 
+.attracties div p{
+  font-family: Roboto;
+  font-family: 400;
+}
 
 /* ==========================================================================
    Helper classes
